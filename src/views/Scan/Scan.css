@@ -1,0 +1,62 @@
+.scan {
+  /* background-color: #854442; */
+  background-image: url("./../../assets/images/img5.png");
+  height: 695px;
+  background-size: auto;
+}
+.content-card {
+  margin-top: 42px;
+  padding: 25px;
+  margin-left: auto;
+  margin-right: auto;
+  height: auto;
+  width: 50%;
+  border-radius: 12px;
+  transition: all 0.5s ease;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  background-color: #d9d9d9;
+  box-shadow: 8px 8px 10px rgba(0, 0, 0, 0.247);
+  color: #3c2f2f;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+.content-card h2 {
+  font-size: 26px;
+  margin: 28px;
+  text-align: center;
+}
+.spinner {
+  margin-top: 90px;
+  margin-left: auto;
+  margin-right: auto;
+  height: 80px;
+  width: 80px;
+  border: 7.5px solid;
+  border-color: #d9d9d9 transparent #d9d9d9 transparent;
+  border-radius: 50%;
+  animation: spin 1.3s ease infinite;
+}
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.loading {
+  padding: 40px;
+  font-size: 33px;
+  color: #d9d9d9;
+}
+.content-card ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+ul li {
+  text-align: left;
+  margin-left: 25px;
+}
+span {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}

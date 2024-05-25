@@ -1,0 +1,111 @@
+.history {
+  background-image: url("./../../assets/images/img5.png");
+  height: 695px;
+  background-size: cover;
+}
+.content-card {
+  margin: 42px auto;
+  padding: 25px;
+  height: auto;
+  width: 60%;
+  border-radius: 12px;
+  transition: all 0.5s ease;
+  /* min-width: 920px; */
+  height: 420px;
+  justify-content: space-around;
+  background-color: #d9d9d9;
+  box-shadow: 8px 8px 10px rgba(0, 0, 0, 0.247);
+  color: #3c2f2f;
+  /* overflow: scroll; */
+  overflow-y: scroll;
+}
+table {
+  border-collapse: collapse;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 18px;
+}
+.content-card h3 {
+  display: flex;
+  justify-content: center;
+  font-size: 26px;
+  padding-bottom: 20px;
+  padding-top: 30px;
+  margin-left: 25px;
+}
+.content-card,
+thead {
+  padding: 7px;
+  border-bottom: 1px solid #3c2f2fc4;
+  font-size: 20px;
+}
+.content-card th,
+.content-card td {
+  text-align: center;
+  padding: 14px 13px;
+  font-size: 19px;
+}
+/* .content-card:hover {
+  transform: scale(1.1);
+  color: #3c2f2f;
+  transition: 0.2s ease;
+} */
+.content-card .delete {
+  display: block;
+  background-color: #be9b7b;
+  border-radius: 20px;
+  border: 2.5px solid #be9b7b;
+  box-sizing: border-box;
+  width: 50%;
+  height: 32px;
+  /* padding: 10px; */
+  /* height: 42px; */
+  /* width: 12%; */
+  text-align: center;
+  /* margin-top: 25px; */
+  transition: 0.3s ease-in-out;
+}
+.spinner {
+  margin-top: 90px;
+  margin-left: auto;
+  margin-right: auto;
+  height: 80px;
+  width: 80px;
+  border: 7.5px solid;
+  border-color: #d9d9d9 transparent #d9d9d9 transparent;
+  border-radius: 50%;
+  animation: spin 1.3s ease infinite;
+}
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.loading {
+  padding: 40px;
+  font-size: 33px;
+  color: #d9d9d9;
+}
+.delete a {
+  display: inline-block;
+  font-size: 15px;
+  color: #3c2f2f;
+  text-decoration: none;
+  font-weight: bold;
+}
+.content-card button:hover a {
+  color: #be9b7b;
+  transition: 0.2s ease;
+}
+.content-card button:hover {
+  background-color: #3c2f2f;
+  color: #be9b7b;
+  border: 2.5px #fff4e6;
+}
+.btns {
+  display: flex;
+  justify-content: space-between;
+  gap: 3px;
+}

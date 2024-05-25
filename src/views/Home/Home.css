@@ -1,0 +1,95 @@
+.script {
+  background-image: url("./../../assets/images/img.jpg");
+  /* height: 443px; */
+  background-size: cover;
+  color: #fff4e6;
+  background-position: center;
+}
+h2 {
+  margin-top: 85px;
+}
+h2,
+h4 {
+  text-align: center;
+}
+h4 {
+  font-family: system-ui, Helvetica, sans-serif, Arial;
+}
+.buttons button {
+  background-color: #3c2f2f;
+  border-radius: 20px;
+  border: 2.5px solid #3c2f2f;
+  margin-right: 152px;
+  box-sizing: border-box;
+  /* width: 10px; */
+  padding: 10px;
+  /* height: 42px; */
+  /* width: 12%; */
+  text-align: center;
+  margin-top: 25px;
+  transition: 0.3s ease-in-out;
+}
+.buttons,
+.button3 {
+  margin: 130px;
+}
+.button3 {
+  margin-left: 90px;
+}
+.buttons a {
+  display: block;
+  font-size: 15px;
+  color: #fff4e6;
+  text-decoration: none;
+  font-weight: bold;
+}
+.buttons button:hover a {
+  color: #3c2f2f;
+  transition: 0.2s ease;
+}
+.buttons button:hover {
+  background-color: #fff4e6;
+  border: 2.5px #3c2f2f;
+}
+.buttons input[type="text"],
+select {
+  padding: 12px 20px;
+  margin-bottom: 22px;
+  display: inline-block;
+  color: #fff4e6;
+  background-color: #3c2f2f;
+  border: 1px solid #3c2f2f;
+  border-radius: 20px;
+  box-sizing: border-box;
+}
+::placeholder {
+  color: #fff4e6;
+  opacity: 1; /* Firefox */
+}
+
+.iscms {
+  margin-left: 30px;
+  font-weight: bold;
+  font-size: 24px;
+}
+.labelro {
+  font-weight: bold;
+  color: #fff4e6;
+  font-size: 18px;
+}
+.inputro {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  margin: 0px 20px;
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  border: 1px solid #3c2f2f; /* Change the color of the border */
+  background-color: #fff4e6; /* Change the background color */
+  outline: none;
+  cursor: pointer;
+}
+.inputro:checked {
+  background-color: #3c2f2f;
+}

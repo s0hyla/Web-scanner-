@@ -1,0 +1,115 @@
+.scheduleScan {
+  background-image: url("./../../assets/images/img5.png");
+  height: 695px;
+  background-size: cover;
+}
+.content-table {
+  text-align: center;
+  margin: 42px auto;
+  width: 44%;
+  border-radius: 12px;
+  transition: all 0.5s ease;
+  height: 410px;
+  background-color: #d9d9d9;
+  box-shadow: 8px 8px 10px rgba(0, 0, 0, 0.247);
+  color: #3c2f2f;
+}
+
+.content-table h3 {
+  display: flex;
+  justify-content: center;
+  font-size: 26px;
+  padding-bottom: 20px;
+  padding-top: 30px;
+  margin-left: 25px;
+}
+.submit {
+  padding: 10px;
+  margin-left: 80px;
+  border-radius: 20px;
+  /* border-bottom: 2px solid; */
+  font-size: 19px;
+  background-color: #3c2f2f;
+  cursor: pointer;
+  text-align: center;
+  margin-top: 25px;
+  /* box-sizing: border-box; */
+  transition: 0.3s ease-in-out;
+}
+button a {
+  display: block;
+  font-size: 15px;
+  padding: 2px 12px;
+  color: #be9b7b;
+  text-decoration: none;
+  font-weight: bold;
+}
+button:hover a {
+  color: #3c2f2f;
+  transition: 0.2s ease;
+}
+button:hover {
+  background-color: #be9b7b;
+  border: 2.5px #be9b7b;
+}
+.content-table:hover {
+  transform: scale(1.1);
+  color: #3c2f2f;
+  transition: 0.2s ease;
+}
+input[type="text"] {
+  padding: 11px 20px;
+  color: #fff4e6;
+  display: inline-block;
+  background-color: #3c2f2f;
+  border: 1px solid #3c2f2f;
+  border-radius: 20px;
+  box-sizing: border-box;
+}
+
+input[type="datetime-local"] {
+  padding: 11px 20px;
+  /* color: #fff4e6; */
+  color: white;
+  display: inline-block;
+  background-color: #3c2f2f;
+  border: 1px solid #3c2f2f;
+  border-radius: 20px;
+  box-sizing: border-box;
+}
+::-webkit-calendar-picker-indicator {
+  filter: invert(1);
+}
+::placeholder {
+  color: #fff4e6;
+  opacity: 1; /* Firefox */
+}
+label,
+input {
+  margin: 15px;
+}
+.iscms {
+  margin-left: 30px;
+  font-size: 24px;
+}
+.labelroo {
+  font-weight: bold;
+  color: #3c2f2f;
+  font-size: 19px;
+}
+.inputroo {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  margin: 0px 20px;
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  border: 1px solid #3c2f2f; /* Change the color of the border */
+  background-color: #be9b7b; /* Change the background color */
+  outline: none;
+  cursor: pointer;
+}
+.inputroo:checked {
+  background-color: #3c2f2f;
+}

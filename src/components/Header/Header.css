@@ -1,0 +1,16 @@
+.header {
+  margin-left: 71px;
+  margin-right: 34px;
+  display: inline;
+}
+img {
+  width: 39px;
+  height: 39px;
+  margin-top: 25px;
+  display: inline;
+}
+h1 {
+  display: inline;
+  font-size: 27px;
+  color: #3c2f2f;
+}
